@@ -78,7 +78,7 @@ def download_video(url, format_id, output_path):
 # 命令行主流程
 
 def main():
-    print("欢迎使用 YouTube 视频下载器！\n仅供下载有权限的视频，请遵守 YouTube 使用条款。\n")
+    print("欢迎使用 YouTube 视频下载器！by Chuchengzhi\n仅供下载有权限的视频。\n")
     url = input("请输入 YouTube 视频 URL: ").strip()
     if not url:
         print("URL 不能为空！")
